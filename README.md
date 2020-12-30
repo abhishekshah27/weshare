@@ -20,18 +20,18 @@
 
 **1. First setup JDK8, MySQL5.5, STS4 and Lombok.**
 
-**2. Clone this repository**
+**2. Clone this repository.**
 
 ```bash
 git clone https://github.com/rvkantpujari/weshare
 ```
 
-**3. Create a MySQL database**
+**3. Create a MySQL database.**
 ```bash
 create database WeShare
 ```
 
-**4. Change the below details as per your configuration**
+**4. Change the below details as per your configuration.**
 + open `src/main/resources/application.properties` in your application.
 + change `connection URL`, `username` and `password` as per your MySQL configuration in your application.
 
@@ -42,8 +42,8 @@ create database WeShare
 mvnw spring-boot:run
 ```
 
-**7. Open your chrome browser and visit the below URL** 
-+ The appication will start running at <http://localhost:8080>.
+**7. Open your chrome browser and visit the below URL.** 
++ The application will start running at <http://localhost:8080>.
 
 ## Application Logins
 
