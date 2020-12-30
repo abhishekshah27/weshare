@@ -26,21 +26,23 @@
 git clone https://github.com/rvkantpujari/weshare
 ```
 
-**3. Create MySQL database**
+**3. Create a MySQL database**
 ```bash
 create database WeShare
 ```
 
 **4. Change the below details as per your configuration**
-+ open `src/main/resources/application.properties` in both of the applications.
-+ change `connection URL`, `username` and `password` as per your MySQL configuration in your applications.
++ open `src/main/resources/application.properties` in your application.
++ change `connection URL`, `username` and `password` as per your MySQL configuration in your application.
 
-**5. Now you can run the app using maven from CMD**
+**5. Create a folder named postImages as `src/main/resources/static/postImages` to store images of your post.**
+
+**6. Now you can run the app using maven from CMD.**
 ```bash
 mvnw spring-boot:run
 ```
 
-**6. Open your chrome browser and visit the below URLs** 
+**7. Open your chrome browser and visit the below URL** 
 + The appication will start running at <http://localhost:8080>.
 
 ## Application Logins
